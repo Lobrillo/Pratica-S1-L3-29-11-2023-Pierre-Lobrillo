@@ -1,0 +1,10 @@
+creazione e configurazione di una rete di calcolatori con il tool Cisco Packet Tracer. 
+Creare una rete con due switch e 6 host, 3 host per ogni switch. Questi 6 host devono far parte tutti della stessa rete e devono comunicare tutti tra loro.
+
+Creazione di un nuovo progetto sul software Cisco Packet Tracer.
+Agguingiamo 2 Switch che collegheremmo tra di loro con un cavo Copper Cross-Over.
+Aggiungiamo 6 Host nell'Aria di lavoro che collegheremmo tre per tre su chiascun Switch con cavi Copper Straight-Through (Primi 3 host sul primo Switch e gli altri 3 sul 2° Switch).
+Assegnare indirizzi IP a ogni host assicurendosi che siano nella stessa rete qui assegneremmo alla rete l'indirizzo IP di classe C 192.168.1.0, 
+Assegremmo quindi IP host1: 192.168.1.1, IP host2: 192.168.1.2, IP host3: 192.168.1.3, IP host4: 192.168.1.4, IP host5: 192.168.1.5, IP host6: 192.168.1.6 .
+step di verifica: da un post pingheremmo l'IP delgli altri host per verificare che communicano effettivamente tra di loro.
+NB: è da Notare che non che usando switch all'interno della stessa subnet la communicazione tra gli host avverà su un dominio di broascast comuno e non è quindi necessario il router.
